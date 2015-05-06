@@ -14,14 +14,20 @@
 			// route for the about page
 			.when('/about', {
 				templateUrl : 'pages/about.html',
-				controller  : 'aboutController'
+				controller  : 'countryCtrl'
 			})
 
 			// route for the contact page
 			.when('/contact', {
 				templateUrl : 'pages/contact.html',
 				controller  : 'contactController'
+			})
+			
+			.when('/sobre', {
+				templateUrl : 'pages/sobre.html',
+				controller  : 'countryCtrl'
 			});
+
 	});
 
 	 //var countryApp = angular.module('countryApp', []);

@@ -1,11 +1,17 @@
  <div >
+ <p style="text-align: center;">Exibindo edereçoes de indaial</p>
 
 
- <div ng-repeat="item in countries | filter:{codigo_cidade: '2'}  | filter:search">
+ <div ng-repeat="item in countries | filter:{codigo_cidade: ''}  | filter:search">
 
-      <div class="normal" >
+      <!-- <div class="normal" >
     	<img id="lugar" name="lugar" src="{{item.foto_lugar}}">
+      </div> -->
+      <div class="linhas" >
+      	<h3>{{item.nome_lugar}}</h3><a id="fone" href="+{{item.fone_lugar}}">{{item.fone_lugar}}</a>{{item[3].nome_lugar}}
       </div>
+
+
   
 </div>
 
