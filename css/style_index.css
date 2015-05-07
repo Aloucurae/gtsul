@@ -13,16 +13,6 @@ header{
 	background-color: black;
 	width: 100%;
 }
-.normal{
-	width: 100%;
-}
-.esconde{
-	width: 100%;
-	display:none; 
-}
-.amplia{
-	width: 200%;
-}
 #esp{
 	position: absolute;
 	margin-top: 130px;
@@ -49,17 +39,7 @@ header{
 
 	/*background-color: #ccc;*/
 }
-.conteudo{
-	/*position: static;*/
-	font-size: 80px;
-	font-family: sans-serif;
-	background-color: #fff;
-	padding: 0;
-	display: none; 
-	width: 100%;
-	margin: 0;
 
-}
 li {
 list-style-type: none;
 text-align: center;
@@ -81,14 +61,12 @@ a{
 	font-family: monospace;
 }
 .linhas{
-	text-align: center;
-	padding: 5px;
+	
 	width: 90%;
-	margin: 2px 4% ;
+	margin: 2% 4%;
 	border-radius:10px;
-	border: solid #ccc 1px;
 	background-color: #fff;
-	box-shadow: 0px 0px 1px #888888;
+	box-shadow: 0px 0px 10px #888;
 }
 #top{
 	position: fixed;
@@ -103,7 +81,24 @@ h3{
 	font-family:sans-serif;
 	font-size: 20px;
 }
+
 #fone{
-	color: #333;
-	text-align: right;
+	float: right;	
+	margin-top: -100px;
+	text-align: center;
+	background-color: #afa;
+	width: 25%;
+	height: 100px;
+	border-radius: 0 8px 8px 0;
+}
+#conteudo{
+	text-align: center;
+	width: 75%;
+	/*background-color: #357;*/
+	height: 100px;	 
+	border-radius:  10px 0 0 10px;
+}
+img{
+	margin: 17px 0;
+	 
 }
