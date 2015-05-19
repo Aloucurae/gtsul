@@ -3,11 +3,16 @@
 
  <div ng-repeat="item in countries | filter:{codigo_cidade: '2'}  | filter:search">
 
-      <!-- <div class="normal" >
-    	<img id="lugar" name="lugar" src="{{item.foto_lugar}}">
-      </div> -->
-      <div class="linhas" >
-      	<h3>{{item.nome_lugar}}</h3>
+     <div class="linhas" >
+      	<div id="conteudo">
+      	 	<h3>{{item.nome_lugar}}</h3>
+      	 	<p>R.:{{item.rua_lugar}} - {{item.bairro_lugar}} - nº {{item.numero_lugar}}</p>
+      	</div>
+      	<a href="tel:+{{item.fone_lugar}}">
+      		<div  id="fone">
+      			<img id="cal" src="img/SVG/0067-phone.svg">
+      		</div>
+      	</a> 
       </div>
   
 </div>
