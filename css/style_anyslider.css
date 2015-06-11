@@ -39,10 +39,10 @@
     
     border-width: 20px;
     border-style: solid;
-    border-top: 15px solid #fff;
-    border-botton: 30px solid #fff;
-    background-color: #fff;
-    border-bottom-color: #fff;
+    border-top: 15px solid #777;
+    border-botton: 30px solid #777;
+    background-color: #777;
+    border-bottom-color: #777;
 }
 
 .as-next-arrow {
@@ -50,17 +50,17 @@
     right: 0;
     border-width: 20px;
     border-style: solid;
-    border-top: 15px solid #fff;
-    border-botton: 30px solid #fff;
-    background-color: #fff;
-    border-bottom-color: #fff;
+    border-top: 15px solid #777;
+    border-botton: 30px solid #777;
+    background-color: #777;
+    border-bottom-color: #777;
 }
 
-.slider:hover .as-prev-arrow,
+/*.slider:hover .as-prev-arrow,
 .slider:hover .as-next-arrow {
     filter: alpha(opacity=100);
     opacity: 100;
-}
+}*/
 
 /* The same rules for styling apply here. Style to your liking */
 .as-nav {

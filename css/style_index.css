@@ -73,14 +73,18 @@ a{
 	position: fixed;
 	margin:0;
 	width: 100%;
-	margin-top:-180px; 
+	margin-top:-150px; 
 }
 #main{
-	margin-top:180px; 
+	margin-top:150px; 
 }
 h3{
 	font-family:sans-serif;
 	font-size: 20px;
+	padding: 10px;
+}
+p{
+	font-family:sans-serif;	
 }
 
 p{
